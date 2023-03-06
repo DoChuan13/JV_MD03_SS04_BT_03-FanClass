@@ -10,7 +10,7 @@ public class Main {
         System.out.println("Fan 1 --> " + fan1.toString());
 
         FanClass fan2 = new FanClass();
-        fan2.setSpeed(fan1.MEDIUM);
+        fan2.setSpeed(fan2.MEDIUM);
         fan2.setRadius(5);
         fan2.setColor("Blue");
         fan2.setIsOn(false);
